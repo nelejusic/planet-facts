@@ -1,0 +1,15 @@
+.planet-container {
+    width: 290px;
+    height: 290px;
+    background-image: url('../../../utills/assets/planet-mercury.svg');
+    position: absolute;
+    top:25%;
+    left:20%
+
+}
+.planet-info{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    color: white;
+}

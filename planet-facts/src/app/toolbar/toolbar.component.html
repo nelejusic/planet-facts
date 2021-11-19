@@ -1,0 +1,13 @@
+<mat-toolbar>
+  <h2 class="title-toolbar">Planet Facts</h2>
+
+  <div class="button-container">
+    <div>
+      <button *ngFor="let planet of navLinks" [routerLink]="planet.link" class="planet-button" (click)="planetChange(planet)">
+        {{ planet.label }}
+      </button>
+    </div>
+  </div>
+
+</mat-toolbar>
+<router-outlet></router-outlet>

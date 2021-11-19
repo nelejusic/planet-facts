@@ -1,0 +1,26 @@
+.mat-toolbar {
+  background-color: transparent;
+}
+
+.title-toolbar {
+  font-family: Antonio;
+  font-size: 28px;
+  color: white;
+}
+.planet-button {
+  border: none;
+  font-family: Spartan;
+  font-size: 11px;
+  background-color: transparent;
+  color: white;
+}
+.button-container {
+    
+    position: absolute;
+    right: 0;
+    left: 8 00px;
+  float: right;
+}
+.planet-button:hover {
+    color: gold;
+}
