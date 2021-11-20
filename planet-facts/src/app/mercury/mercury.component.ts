@@ -11,6 +11,10 @@ export class MercuryComponent implements OnInit {
   planetInfo
   source='Source: Wikipedia'
   link;
+  radius
+  revolution
+  rotation
+  basicInfo = []
   ngOnInit(): void {
     this.service.getJSON().subscribe(res=>{
       res.forEach(planet => {
@@ -18,9 +22,13 @@ export class MercuryComponent implements OnInit {
         if(planet.name ==='Mercury'){
           this.data.push(planet)
           this.planetInfo = planet.content
+          this.radius= planet.radius; this.revolution= planet.revolution; this.rotation=planet.rotation
+          console.log(this.basicInfo)
+
         }
       });
       this.data.forEach(planet=>{
+        console.log(this.data)
         this.planetInfo = planet.overview
         this.link= this.planetInfo.source
         this.planetInfo = this.planetInfo.content

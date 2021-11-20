@@ -1,31 +1,79 @@
 .planet-container {
-    width: 290px;
-    height: 290px;
-    background-image: url('../../../utills/assets/planet-mercury.svg');
-    position: absolute;
-    top:25%;
-    left:20%
+  width: 290px;
+  height: 290px;
+  background-image: url("../../../utills/assets/planet-mercury.svg");
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+.planet-info {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  color: white;
+}
+.title {
+  font-family: Antonio;
+  font-size: 60px;
+  color: white;
+}
+.planet-description {
+  width: 40%;
+  font-family: Spartan;
+  margin-top: 5%;
+  font-size: 15px;
+}
+.source {
+  color: #ffffff;
+  opacity: 0.5;
+  font-family: Spartan;
+  margin-top: 10px;
+}
+.select-view {
+  border: 1px solid rgba(141, 141, 141, 0.5);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  width: 40%;
+  height: 40px;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Spartan;
+  color: white;
+  margin-top: 2%;
 
 }
-.planet-info{
-    position: absolute;
-    top: 20%;
-    left: 69%;
-    color: white;
+.select-view:hover {
+  background-color: #419ebb;
+  margin-bottom: 1%;
+  padding-top: 5px;
+  margin-top: 3%;
 }
-.title{
-    font-family: Antonio;
-    font-size: 80px;
-    color: white;
+.button-container {
+  display: flex;
+  flex-direction: column;
 }
-.planet-description{
-    font-family: Spartan;
-    margin-top: 20%;
-    font-size: 18px;
+.basic-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+
+  font-family: Antonio;
+  font-size: 25px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  border: 1px solid rgba(141, 141, 141, 0.5);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
-.source{
-    color: #FFFFFF;
-    opacity: 0.5;
-    font-family: Spartan;
-    margin-top: 20px;
+.basic-info:hover {
+    background-color: #419ebb;
+    margin-bottom: 1%;
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-top: 1%;
+    margin-left: 1%;
 }
