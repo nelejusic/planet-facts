@@ -1,1 +1,60 @@
-<p>neptune works!</p>
+<div class="planet-container" style="" id="planet-container"></div>
+<div class="planet-container-geology" *ngIf ="geologyView===true"></div>
+<div class="planet-info">
+<p class="title">NEPTUNE</p>
+<p class="planet-description" style="margin-top: 5%;">
+  {{ planetInfo }}
+</p>
+<p class="source">
+  {{ source }} <a href="{{ link }}"><mat-icon>open_in_browser</mat-icon> </a>
+</p>
+<div class="button-container">
+  <button class="select-view" (click)="onViewChangeOverview()">
+    OVERVIEW
+  </button>
+  <button class="select-view" (click)="onViewChangeInternal()">
+    INERNAL STRUCTURE
+  </button>
+  <button class="select-view" (click)="onViewChangeGeology()">
+    SURFACE GEOLOGY
+  </button>
+</div>
+</div>
+
+<div
+style="
+  position: absolute;
+  top: 76%;
+  left: 10%;
+  width: 35%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+"
+> 
+
+<div class="basic-info" *ngIf="geologyView!==true">
+  <p style="font-size: 14px; padding-top: 2px; color: #ffffff; opacity: 0.5">
+    RADIUS:
+  </p>
+  <p>
+    {{ radius }}
+  </p>
+</div>
+<div class="basic-info" *ngIf="geologyView!==true">
+  <p style="font-size: 14px; padding-top: 2px; color: #ffffff; opacity: 0.5">
+    REVOLUTION:
+  </p>
+  <p>
+    {{ revolution }}
+  </p>
+</div>
+<div class="basic-info" *ngIf="geologyView!==true">
+  <p style="font-size: 14px; padding-top: 2px; color: #ffffff; opacity: 0.5">
+    ROTATION:
+  </p>
+  <p>
+    {{ rotation }}
+  </p>
+</div>
+</div>

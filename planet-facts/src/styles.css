@@ -1,4 +1,85 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Antonio&family=Spartan&display=swap');
-html, body { height: 100%; background-image: url('../utills/assets/background-stars.svg'); background-color: #070724;}
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;  background-image:url('../utills/assets/background-stars.svg'); }
+@import url("https://fonts.googleapis.com/css2?family=Antonio&family=Spartan&display=swap");
+html,
+body {
+  height: 100%;
+  background-image: url("../utills/assets/background-stars.svg");
+  background-color: #070724;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-image: url("../utills/assets/background-stars.svg");
+}
+
+.planet-info {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  color: white;
+  
+}
+.title {
+  font-family: Antonio;
+  font-size: 60px;
+  color: white;
+}
+.planet-description {
+  width: 40%;
+  font-family: Spartan;
+  margin-top: 5%;
+  font-size: 15px;
+}
+.source {
+  color: #ffffff;
+  opacity: 0.5;
+  font-family: Spartan;
+  margin-top: 10px;
+}
+.select-view {
+  border: 1px solid rgba(141, 141, 141, 0.5);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  width: 40%;
+  height: 40px;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Spartan;
+  color: white;
+  margin-top: 2%;
+}
+.select-view:hover {
+  background-color: #419ebb;
+  margin-bottom: 1%;
+  padding-top: 5px;
+  margin-top: 3%;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+.basic-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+
+  font-family: Antonio;
+  font-size: 25px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  border: 1px solid rgba(141, 141, 141, 0.5);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+.basic-info:hover {
+  background-color: #419ebb;
+  margin-bottom: 1%;
+  padding-top: 5px;
+  padding-top: 5px;
+  margin-top: 1%;
+  margin-left: 1%;
+}

@@ -1,0 +1,24 @@
+.planet-container {
+  width: 26.3%;
+  height: 57.7%;
+  background-image: url("../../../utills/assets/planet-neptune.svg");
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.planet-container-internal {
+  width: 26.3%;
+  height: 57.7%;
+  background-image: url("../../../utills/assets/planet-neptune-internal.svg");
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.planet-container-geology {
+  width: 326.5px;
+  height: 400px;
+  background-image: url("../../../utills/assets/geology-neptune.png");
+  position: absolute;
+  top: 45%;
+  left: 20%;
+}
