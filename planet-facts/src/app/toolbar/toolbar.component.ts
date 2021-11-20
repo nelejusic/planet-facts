@@ -25,6 +25,22 @@ activeLinkIndex = -1;
           label: 'MARS',
           link: './mars',
           index: 2
+      }, {
+          label: 'SATURN',
+          link: './saturn',
+          index: 3
+      }, {
+          label: 'NEPTUNE',
+          link: './neptune',
+          index: 4
+      }, {
+          label: 'URANUS',
+          link: './uranus',
+          index: 5
+      }, {
+          label: 'JUPITER',
+          link: './jupiter',
+          index: 6
       },
   ];
   }

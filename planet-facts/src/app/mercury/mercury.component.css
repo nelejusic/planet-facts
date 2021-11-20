@@ -9,7 +9,23 @@
 }
 .planet-info{
     position: absolute;
-    top: 15%;
-    left: 65%;
+    top: 20%;
+    left: 69%;
     color: white;
+}
+.title{
+    font-family: Antonio;
+    font-size: 80px;
+    color: white;
+}
+.planet-description{
+    font-family: Spartan;
+    margin-top: 20%;
+    font-size: 18px;
+}
+.source{
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-family: Spartan;
+    margin-top: 20px;
 }
