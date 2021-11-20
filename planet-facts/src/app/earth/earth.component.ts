@@ -28,7 +28,7 @@ export class EarthComponent implements OnInit {
     this.service.getJSON().subscribe(res=>{
       res.forEach(planet => {
         
-        if(planet.name ==='Neptune'){
+        if(planet.name ==='Earth'){
           this.structureContent= planet.structure.content;
           this.geologyContent = planet.geology.content
           console.log(planet.images.planet)

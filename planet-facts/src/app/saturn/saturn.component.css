@@ -1,0 +1,24 @@
+.planet-container {
+    width: 36.7%;
+    height: 80%;
+    background-image: url("../../../utills/assets/planet-saturn.svg");
+    position: absolute;
+    top: 2%;
+    left: 10%;
+  }
+  .planet-container-internal {
+    width: 36.7%;
+    height: 80%;
+    background-image: url("../../../utills/assets/planet-saturn.svg");
+    position: absolute;
+    top: 2%;
+    left: 10%;
+  }
+  .planet-container-geology {
+    width: 326.5px;
+    height: 400px;
+    background-image: url("../../../utills/assets/geology-saturn.png");
+    position: absolute;
+    top: 45%;
+    left: 20%;
+  }

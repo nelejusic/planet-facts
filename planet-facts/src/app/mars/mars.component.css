@@ -1,0 +1,24 @@
+.planet-container {
+    width: 19.7%;
+    height: 43%;
+    background-image: url("../../../utills/assets/planet-mars.svg");
+    position: absolute;
+    top: 19%;
+    left: 18%;
+  }
+  .planet-container-internal {
+    width: 19.7%;
+    height: 43%;
+    background-image: url("../../../utills/assets/planet-mars-internal.svg");
+    position: absolute;
+    top: 19%;
+    left: 18%;
+  }
+  .planet-container-geology {
+    width: 326.5px;
+    height: 400px;
+    background-image: url("../../../utills/assets/geology-mars.png");
+    position: absolute;
+    top: 45%;
+    left: 20%;
+  }
