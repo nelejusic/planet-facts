@@ -1,14 +1,14 @@
 .planet-container {
-  width: 34%;
-  height: 74.6%;
+  width: 582.4px;
+  height: 582px;
   background-image: url("../../../utills/assets/planet-jupiter.svg");
   position: absolute;
   top: 1%;
   left: 10%;
 }
 .planet-container-internal {
-  width: 34%;
-  height: 74.6%;
+  width: 582.4px;
+  height: 582px;
   background-image: url("../../../utills/assets/planet-jupiter-internal.svg");
   position: absolute;
   top: 1%;

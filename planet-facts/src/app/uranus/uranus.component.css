@@ -1,14 +1,14 @@
 .planet-container {
-    width: 26.8%;
-    height: 58.6%;
+    width: 458pX;
+    height: 458PX;
     background-image: url("../../../utills/assets/planet-uranus.svg");
     position: absolute;
     top: 15%;
     left: 15%;
   }
   .planet-container-internal {
-    width: 26.8%;
-    height: 58.6%;
+    width: 458pX;
+    height: 458PX;
     background-image: url("../../../utills/assets/planet-uranus-internal.svg");
     position: absolute;
     top: 15%;

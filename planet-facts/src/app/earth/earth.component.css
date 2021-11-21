@@ -1,14 +1,14 @@
 .planet-container {
-    width: 26.3%;
-    height: 57.7%;
+    width: 450PX;
+    height: 450PX;
     background-image: url("../../../utills/assets/planet-earth.svg");
     position: absolute;
     top: 15%;
     left: 15%;
   }
   .planet-container-internal {
-    width: 26.3%;
-    height: 57.7%;
+    width: 450PX;
+    height: 450PX;
     background-image: url("../../../utills/assets/planet-earth-internal.svg");
     position: absolute;
     top: 15%;

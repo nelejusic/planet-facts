@@ -1,14 +1,14 @@
 .planet-container {
-  width: 26.3%;
-  height: 57.7%;
+  width: 450px;
+  height: 450px;
   background-image: url("../../../utills/assets/planet-neptune.svg");
   position: absolute;
   top: 15%;
   left: 15%;
 }
 .planet-container-internal {
-  width: 26.3%;
-  height: 57.7%;
+  width: 450px;
+  height: 450px;
   background-image: url("../../../utills/assets/planet-neptune-internal.svg");
   position: absolute;
   top: 15%;

@@ -1,14 +1,14 @@
 .planet-container {
-    width: 36.7%;
-    height: 80%;
+    width: 620px;
+    height: 620px;
     background-image: url("../../../utills/assets/planet-saturn.svg");
     position: absolute;
     top: 2%;
     left: 10%;
   }
   .planet-container-internal {
-    width: 36.7%;
-    height: 80%;
+    width: 620px;
+    height: 620px;
     background-image: url("../../../utills/assets/planet-saturn.svg");
     position: absolute;
     top: 2%;

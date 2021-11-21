@@ -15,7 +15,7 @@ body {
 .planet-info {
   position: absolute;
   top: 20%;
-  left: 65%;
+  left: 75%;
   color: white;
   
 }
@@ -25,7 +25,7 @@ body {
   color: white;
 }
 .planet-description {
-  width: 40%;
+  width: 50%;
   font-family: Spartan;
   margin-top: 5%;
   font-size: 15px;
